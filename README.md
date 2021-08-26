@@ -5,4 +5,4 @@ STEPS FOR THE EXECUTION OF THE APPLICATION:
 2) The table must be created in the database called bd_estudiantes.db with the file statement estudiates.sql or
     removing the comments of lines 18 and 22.
 
-3) NOTE: Its a console application.
+3) Add in the library JAR by sqlite version 3.36.0.1

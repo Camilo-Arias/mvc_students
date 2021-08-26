@@ -15,11 +15,11 @@ public class ConnectBd {
     }
     try {
       conn = DriverManager.getConnection("jdbc:sqlite:bd_estudiantes.db");
-      /*String create = "CREATE TABLE IF NOT EXISTS estudiantes " + "(NAME TEXT NOT NULL," + " LASTNAME TEXT NOT NULL, "
+      String create = "CREATE TABLE IF NOT EXISTS estudiantes " + "(NAME TEXT NOT NULL," + " LASTNAME TEXT NOT NULL, "
       + " DATEBIRTH TEXT NOT NULL, " + " EMAILINS TEXT PRIMARY KEY NOT NULL, " + " EMAILPER TEXT NOT NULL, "
       + " NUMBERPHONE INTEGER NOT NULL, " + " NUMBERHOME INTEGER NOT NULL, " + " CAREER TEXT NOT NULL );";
       sentence = this.pStmp(create);
-      sentence.executeUpdate();*/
+      sentence.executeUpdate();
     } catch (SQLException ex) {
       ex.printStackTrace();
     }
